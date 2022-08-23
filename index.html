@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+      background-color: red;
+        width: 400px;
+        height: 400px;
+        border: 3px solid black;
+        
+
+     
+        
+      
+    }
+    .box{
+      background-color: whitesmoke;
+        height: 200px;
+        width: 200px;
+        border:2px solid black; 
+        cursor: pointer;
+    }
+    #items1:hover{
+       animation-name: alabama;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+       
+    }
+     .box2{
+        height: 200px;
+        width: 200px;
+        border:2px solid black; 
+        cursor: pointer;
+        background-image: url("index44.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+     }
+
+    
+    #items2:hover{
+        animation-name: neco;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        
+        
+    }
+    @keyframes alabama  {
+        from{
+            width: 200px;
+            color: whitesmoke;
+        }
+        to{
+            width: 300px;
+            background-image: url("index.jpg");
+        }
+   
+    }
+    @keyframes neco {
+        from{
+            width: 200px;
+            background-image: url("index44.jpg");
+            
+        }
+        to{
+            
+            width: 300px;
+            background-image: url("hh7.jpg");
+        }
+    }
+    
+
+</style>
+<body>
+    <div class="container">
+       <div class="box" id="items1"> 
+        The story is set in the modern-day, except people with special powers called "Quirks" have become commonplace throughout the world. In a world of chaos and confusion, Pro Heroes have now risen as the new profession to fight off powerful super villains.
+        
+        A young boy named Izuku Midoriya is Quirkless, meaning he has no powers, but he still dreams of becoming a great hero one day.
+
+       </div>
+       <div class="box2" id="items2">
+           
+       </div>
+       
+    </div>
+    
+</body>
+</html>
